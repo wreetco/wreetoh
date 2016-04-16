@@ -1,0 +1,10 @@
+{
+  "name": "wreetco website",
+  "main": "app.js",
+  "dependencies": {
+    "express": "~4.13.4",
+    "method-override": "~2.3.5",
+    "mongoose": "~4.4.11",
+    "swig": "^1.4.2"
+  }
+}

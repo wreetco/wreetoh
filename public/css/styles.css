@@ -1,0 +1,147 @@
+html, body {
+	background-color: #222;
+}
+
+nav {
+	background: #fff !important;
+	height: 90px !important;
+	line-height: 90px !important;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+nav.shrinkdat {
+	height: 55px !important;
+	opacity: .9;
+}
+
+nav li a {
+	color: #26a69a !important;
+	font-size: 1.25em !important;
+	height: 80px !important;
+	position: relative;
+	top: .8em;
+	-webkit-transition: all 0.3s ease-in-out !important;
+	transition: all 0.3s ease-in-out !important;
+}
+
+nav.shrinkdat li a {
+	padding-top: 0 !important;
+	height: 60px;
+	top: -1em;
+}
+
+nav .brand-logo img {
+	width: 64px;
+	position: relative;
+	top: 12px;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+nav.shrinkdat .brand-logo img {
+	width: 42px;
+	position: relative;
+	top: -6px;
+}
+
+.splash {
+	height: 66vh;
+	max-height: 1000px;
+	background-image: url('/img/denver-blur.jpg');
+	background-size: cover;
+}
+
+.splash .col {
+	height: 100%;
+	background-color: rgba(20, 20, 20, .6);
+	z-index: 99;
+}
+
+.splash-content {
+	margin: 0 auto;
+	color: #fff;
+}
+
+.splash-content span {
+	font-size: 1.66em;
+	display: block;
+	text-align: center;
+}
+
+.debug {
+	border: 1px solid red;
+}
+
+.nogut {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.wreetbro {
+	position: absolute;
+	right: .5em;
+	top: -1em;
+	height: 1em;
+	font-size: 1.5em;
+	display: block;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+nav.shrinkdat .wreetbro {
+	visibility: hidden;
+	margin-top: -1em;
+	opacity: 0;
+}
+
+.services-overview {
+	color: #fff;
+}
+
+.services-overview h4 {
+	font-size: 2.25em;
+}
+
+.service-section {
+	padding: 2em 0 2em 0;
+}
+
+.biggie-list li {
+	padding: .33em 0 .33em 0.75em;
+	font-size: 1.5em;
+}
+
+.svg-image {
+	width: 66%;
+	max-width: 303px;
+}
+
+.projects .card {
+	margin: 1em;
+}
+
+.slick-prev::before {
+	top: 0 !important;
+	left: -.5em; !important;
+	position: absolute !important;
+	font-size: 56px !important;
+	content: "<" !important;
+}
+
+.slick-next::before {
+	//font-size: 56px !important;
+	position: absolute !important;
+	top: 0 !important;
+	font-size: 56px !important;
+	content: ">" !important;
+}
+
+.cform {
+	background: rgba(34, 34, 34, .6); 
+	position: relative; 
+	width: 45%; 
+	padding: 1em;
+	margin: 25px;
+	z-index: 1; 
+}
