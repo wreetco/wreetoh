@@ -1,5 +1,5 @@
 {
-  "name": "wreetco website",
+  "name": "wreetco-website",
   "main": "app.js",
   "dependencies": {
     "express": "~4.13.4",
